@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fare Guide</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .header {
+            background-color: #9be7e7;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header a {
+            margin: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+        }
+        .header input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .header button {
+            background-color: gold;
+            border: none;
+            padding: 8px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            width: 90%;
+            margin: 40px auto;
+            box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+
+
+        .fare-title {
+            background: black;
+            color: white;
+            padding: 15px;
+            font-size: 22px;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+            gap: 20px;
+        }
+        .map-section img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+        .info-section {
+            text-align: left;
+            flex: 1;
+            max-width: 300px;
+        }
+        .info-section h3 {
+            background: black;
+            color: white;
+            display: inline-block;
+            padding: 8px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+        .ticket-section {
+            background: navy;
+            color: white;
+            padding: 30px;
+            font-size: 80px;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 300px;
+            height: 300px;
+            border-radius: 10px;
+        }
+        .fare-buttons button {
+            margin-top: 10px;
+            padding: 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+    </style>
+    <script>
+        function updateFare(isDiscounted) {
+            let price = isDiscounted ? 20.00 : 28.00;
+            document.getElementById("ticket-price").textContent = price.toFixed(2);
+        }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <img src="Screenshot_2025-02-24_083338-removebg-preview (1).PNG" alt="img" width="50px" height="50px" class="rounded-circle">
+            <a href="INDEX.html">HOME</a>
+            <a href="PAGE2.html">TRAIN SCHEDULE</a>
+            <a href="PAGE3.html">HELP</a>
+        </div>
+        <div>
+            <input type="text" placeholder="Search...">
+            <button>SEARCH</button>
+        </div>
+    </div>
+
+
+<br>
+<br>
+<br>
+<br>
+
+
+
+    <div class="container">
+        <h1><p style=" background-color: black ; color: white;">Leave a comment.</p></h1>
+        <h6>We value your feedback. Talk to us!</h6>
+    <br>
+    <br>
+<textarea class="form-control" rows="5" id="type here" placeholder="    " style=" background: #9be7e7;"></textarea>
+<br>   
+<br>
+<br>
+
+
+        <h4>Name</h4>
+<input type="text" class="form-control" id="type here" placeholder="   ">
+
+<br>
+<br>    
+<br>
+
+
+        <h4>Email</h4>
+<input type="text" class="form-control" id="type here" placeholder= "     ">
+
+<br>
+<br>
+
+    <button class="btn btn-dark" type="button">Submit feedback.</button>
+</div>
+
+<hr>
+<div class="container" style="background: black;">
+    <h1 style="color: whitesmoke;">Help</h1> 
+</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+<h10>For any assistance, feel free to contact us.</h10><img src="Screenshot 2025-02-25 115510.PNG" alt="img" width="20px" height="20px"> <img src="Screenshot 2025-02-25 131913.PNG" alt="img" width="20px" height="20px">
+
+
+        <br>
+<h10> Our Office:     47 East, Solana Suites #47 Estaban Abada street, Brgy.Loyola Heights, Quezon City, Philipines 1108.</h10>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<h10>©️ 2025 Xander Panuncialman, and Semaiah Arenal.</h10>
+
+<br>
+<br>
+<br>
+<br>
+<hr>
